@@ -1,2 +1,2 @@
 # Etch-A-Sketch
-odin project assignment
+odin project assignment - etching and sketching :)
