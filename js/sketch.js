@@ -1,5 +1,5 @@
-var rows = 16;
-var columns = 16;
+var rows = 30;
+var columns = 30;
 //var y = $(".square").outerWidth();
 //var height = y * rows;
 var $row = $("<div />", {class : 'row'});
@@ -21,6 +21,16 @@ for (var i = 0; i < rows; i++) {
 
 
 }
+
+$('.square').hover(
+	function(){
+	$(this).css({"background-color":"black"});
+},
+	function() {
+	$(this).css({"background-color":"black"});
+
+}
+);
 
 //$(".row").css({"width":y});
 
