@@ -1,7 +1,7 @@
 #container{
 margin : 0 auto;
-width: 80%;
-height: auto;
+width: 960px;
+height: 960px;
 
 }
 
@@ -23,4 +23,8 @@ height: auto;
 	width: 600px;
 	margin : auto;
 
+}
+
+.drawing {
+	background-color: black;
 }
